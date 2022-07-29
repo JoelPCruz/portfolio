@@ -1,0 +1,236 @@
+
+body {
+    font-family: 'Work Sans', sans-serif;
+    line-height: 1.8;
+}
+
+.navbar,
+#head {
+    color: whitesmoke;
+}
+
+
+.navbar {
+    position: absolute;
+    width: 100%;
+    padding-top: 16px;
+    padding-bottom: 16px;
+    z-index: 999;
+}
+
+.navbar-brand {
+    font-size: 28px;
+    text-transform: uppercase;
+}
+
+.navbar .navbar-nav .nav-link {
+    text-transform: uppercase;
+    font-size: 14px;
+}
+
+
+.social-links a {
+    width: 36px;
+    min-height: 36px;
+    background-color: whitesmoke;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 100px;
+    font-size: 18px;
+    margin-left: 5px;
+}
+
+.intro {
+    margin-bottom: 60px;
+}
+
+.intro .hr-line {
+    width: 60px;
+    height: 4px;
+    background-color: black;
+    display: inline-block;
+}
+
+.intro h1 {
+    font-weight: 700;
+    text-transform: uppercase;
+    margin-top: 16px;
+    margin-bottom: 16px;
+}
+
+.intro p {
+    width: 500px;
+}
+
+.intro .intro-dark h1,
+.intro p{
+    color: white;
+}
+
+.intro .hr-line {
+    background-color: white;
+}
+
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-weight: 700;
+}
+
+a {
+    color:var(--body);
+    text-decoration: none;
+    transition: all 0.4s ease;
+    font-weight: 700;
+}
+
+a:hover {
+    color: var(--dark);
+}
+
+img {
+    width: 100%;
+}
+
+section {
+    padding-top: 170px;
+    padding-bottom: 170px;
+}
+
+#head {
+    background: url(../imgs/wallpaper.webp);
+    min-height: 100vh;
+    background-position: center;
+    background-size: cover;
+}
+
+#head p {
+  font-size: 18px;
+  max-width: 450px;
+}
+
+.btn {
+    padding: 20px 44px;
+    border-width: 2px;
+    border-radius: 100px;
+    font-size: 14px;
+    font-weight: 700;
+    text-transform: uppercase;
+}
+
+.skills {
+    display: flex;
+    border: 1px solid black;
+    padding: 32px;
+}
+
+.skills .icon {
+    width: 100px;
+    height: 100px;
+    background-color: grey;
+    display: flex;
+    flex: none;
+    align-items: center;
+    justify-content: center;
+    font-size: 34px;
+    color: white;
+    border-radius: 30px;
+    margin-right: 16px;
+}
+
+.skills h4 {
+   margin-left: 80px;
+   margin-top: 30px;
+}
+
+.icon svg {
+    height: 100%;
+    width: 100%;
+}
+
+#projects {
+    background-color: rgb(55, 55, 83);
+}
+
+
+.carousel-inner h5,
+.carousel-caption p{
+    color: black;
+}
+
+.carousel-inner h5 {
+    font-weight: 700;
+    font-size: 30px;
+}
+
+#projects h1 {
+    color: white;
+}
+
+.carousel-indicators {
+    background-color: black;
+}
+
+
+#projects .hr-line {
+    color: white;
+}
+
+#skills .hr-line,
+#experience .hr-line,
+#contact .hr-line,
+#about .hr-line  {
+    background-color: black;
+}
+
+.carousel {
+    background-color: black;
+}
+
+.contact {
+    font-size: 30px;
+    text-decoration: underline;
+    color: rgb(79, 144, 254);
+}
+
+
+.lead {
+    font-weight: 700;
+    background-color: whitesmoke;
+    border: solid 1px black;
+    padding: 18px 18px;
+    margin: 16px 16px;
+}
+
+.react {
+    height: 38vh;
+}
+
+.contacts-icons {
+    height: 18vh;
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.icon:hover {
+    transform: scale(130%) rotate(12deg);
+}
+
+
+/* MEDIA QUERYS */
+@media(max-width: 992px) {
+    .navbar {
+        background-color: rgb(66, 66, 97);
+    }
+    
+    #head p {
+        color: rgb(66, 66, 97);
+    }
+}

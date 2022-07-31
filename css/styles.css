@@ -224,12 +224,29 @@ section {
 }
 
 
+.btn {
+    background-color: rgb(191, 190, 190);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding: 12px 36px;    
+    width: 30vw;
+}
+
+.container-contact {
+    display: flex;
+    flex-direction: column;
+}
+
 /* MEDIA QUERYS */
 @media(max-width: 992px) {
     .navbar {
         background-color: rgb(66, 66, 97);
     }
     
+
+
     #head p {
         color: rgb(66, 66, 97);
     }

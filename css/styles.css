@@ -246,6 +246,10 @@ section {
     align-items: center;
 }
 
+.contact {
+    font-size: 18px;
+}
+
 .experience .lead,
 .lead {
     border-radius: 10%;
@@ -258,8 +262,7 @@ section {
     .navbar {
         background-color: rgb(66, 66, 97);
     }
-    
-
+      
 
     #head p {
         color: rgb(66, 66, 97);

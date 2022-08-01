@@ -239,6 +239,20 @@ section {
     flex-direction: column;
 }
 
+.skills {
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    align-items: center;
+}
+
+.experience .lead,
+.lead {
+    border-radius: 10%;
+    background-color: rgb(178, 238, 252);
+}
+
+
 /* MEDIA QUERYS */
 @media(max-width: 992px) {
     .navbar {

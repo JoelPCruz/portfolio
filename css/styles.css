@@ -1,4 +1,16 @@
 
+* {
+    margin-right: -10px;
+    box-sizing: border-box;
+}
+
+html, body {
+    width: 100vw;
+    height: 100vh;
+    margin: 0;
+    padding: 0;
+}
+
 body {
     font-family: 'Work Sans', sans-serif;
     line-height: 1.8;
@@ -32,7 +44,6 @@ body {
 .social-links a {
     width: 36px;
     min-height: 36px;
-    background-color: whitesmoke;
     display: inline-flex;
     align-items: center;
     justify-content: center;
@@ -40,6 +51,10 @@ body {
     font-size: 18px;
     margin-left: 5px;
 }
+.icon {
+    margin: 6px 6px;
+}
+
 
 .intro {
     margin-bottom: 60px;
@@ -127,6 +142,7 @@ section {
     display: flex;
     border: 1px solid black;
     padding: 32px;
+    flex-wrap: wrap;
 }
 
 .skills .icon {
@@ -196,6 +212,7 @@ section {
     font-size: 30px;
     text-decoration: underline;
     color: rgb(79, 144, 254);
+    flex-wrap: wrap;
 }
 
 
@@ -219,10 +236,14 @@ section {
     justify-content: center;
 }
 
+
 .icon:hover {
-    transform: scale(130) rotate(12deg);
+    transform: scale(2) rotate(12deg);
 }
 
+.nav-link {
+    margin: 12px 12px;
+}
 
 .btn {
     background-color: rgb(191, 190, 190);
@@ -246,9 +267,9 @@ section {
     align-items: center;
 }
 
-.contact {
+ .contact {
     font-size: 18px;
-}
+} 
 
 .experience .lead,
 .lead {

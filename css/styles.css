@@ -1,12 +1,11 @@
 
 * {
-    margin-right: -10px;
     box-sizing: border-box;
 }
 
 html, body {
-    width: 100vw;
-    height: 100vh;
+    max-width: 100vw;
+    max-height: 100vh;
     margin: 0;
     padding: 0;
 }
@@ -143,6 +142,11 @@ section {
     border: 1px solid black;
     padding: 32px;
     flex-wrap: wrap;
+    margin: 0 auto;
+}
+
+.projects {
+    margin: 0 auto;
 }
 
 .skills .icon {
@@ -174,27 +178,25 @@ section {
 }
 
 
-.carousel-inner h5,
-.carousel-caption p{
-    color: black;
-}
 
-.carousel-inner h5 {
-    font-weight: 700;
-    font-size: 30px;
-}
+
+
+
 
 #projects h1 {
     color: white;
 }
 
-.carousel-indicators {
-    background-color: black;
-}
-
-
 #projects .hr-line {
     color: white;
+}
+
+.card {
+    max-width: 100vw;
+}
+
+.card-img-top {
+    max-width: 96%;
 }
 
 #skills .hr-line,
@@ -204,24 +206,13 @@ section {
     background-color: black;
 }
 
-.carousel {
-    background-color: black;
-}
+
 
 .contact {
     font-size: 30px;
     text-decoration: underline;
     color: rgb(79, 144, 254);
     flex-wrap: wrap;
-}
-
-
-.lead {
-    font-weight: 700;
-    background-color: whitesmoke;
-    border: solid 1px black;
-    padding: 18px 18px;
-    margin: 16px 16px;
 }
 
 .react {
@@ -271,21 +262,51 @@ section {
     font-size: 18px;
 } 
 
-.experience .lead,
-.lead {
-    border-radius: 10%;
-    background-color: rgb(178, 238, 252);
+
+
+.card-mb-3 {
+    max-height: 100vh;
+    max-width: 100vw;
 }
 
+.contact-sec h5 {
+    font-size: 28px;
+    color: #fff;
+    font-weight: 700;
+    padding: 15px 0;
+}
+
+.contact-sec p {
+    color: #fff;
+    font-weight: 700;
+    padding: 15px 0;
+}
+
+.form-control {
+    margin: 6px;
+    padding: 6px;
+}
+
+#contact {
+    width: 100%;
+    background-color: rgba(8,7,7,0.90);
+}
 
 /* MEDIA QUERYS */
-@media(max-width: 992px) {
+@media(max-width: 768px) {
     .navbar {
         background-color: rgb(66, 66, 97);
     }
-      
 
     #head p {
         color: rgb(66, 66, 97);
+    }
+
+    
+}
+
+@media(max-width: 992px) {
+    .col-edit {
+        max-width: 100%;
     }
 }

@@ -292,6 +292,14 @@ section {
     background-color: rgba(8,7,7,0.90);
 }
 
+.thanks-b {
+    background: url(../imgs/thanks.jpeg);
+    min-height: 100vh;
+    background-position: center;
+    background-size: cover;
+    font-size: 28px;
+}
+
 /* MEDIA QUERYS */
 @media(max-width: 768px) {
     .navbar {
